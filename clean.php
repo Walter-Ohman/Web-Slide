@@ -1,7 +1,7 @@
 <html lang="sv">
 
 	<head>
-		<script src="Slide.js"></script>
+		<script src="slide.js"></script>
 		<link rel="stylesheet" href="test.css">
 	</head>
 	<body>
