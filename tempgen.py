@@ -34,3 +34,5 @@ filelist.sort()
 search()
 
 nlimg = str("\n".join(imglist))
+
+print(nlimg)

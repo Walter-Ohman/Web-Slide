@@ -3,6 +3,7 @@
 	<head>
 		<script src="slide.js"></script>
 		<link rel="stylesheet" href="test.css">
+		<meta http-equiv="refresh" content="1800">
 	</head>
 	<body>
 		<div class="main">
@@ -12,10 +13,11 @@
 						//Read all files in image folder
 						$files = glob('imgs/' . "*");
 						$count = count($files);
-
+						natsort($files);
 						//For every file in the image folder load the file
 						foreach($files as $img) {
-							echo "<img src=".$img.">";
+							$filetime = filemtime($img);
+							echo "<img src=".$img."?".$filetime.">";
 						}
 
 					?>
