@@ -18,4 +18,4 @@ sudo mkdir /var/www/html/tempimgs
 sudo mkdir /var/www/html/uploads
 sudo mkdir /var/www/html/imgs
 
-sudo chmod -R 777 /var/ww/html/
+sudo chmod -R 777 /var/www/html/
