@@ -11,3 +11,7 @@ sudo apt-get install php-xml -y
 rm -r /var/www/html/*
 
 git clone https://github.com/Walter-Ohman/Web-Slide /var/www/html/
+
+mkdir /var/www/html/tempimgs
+mkdir /var/www/html/uploads
+mkdir /var/www/html/imgs
