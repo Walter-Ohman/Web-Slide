@@ -15,3 +15,5 @@ sudo git clone https://github.com/Walter-Ohman/Web-Slide /var/www/html/
 sudo mkdir /var/www/html/tempimgs
 sudo mkdir /var/www/html/uploads
 sudo mkdir /var/www/html/imgs
+
+sudo chmod -R 777 /var/ww/html/
