@@ -25,7 +25,6 @@
 			</div>	
 			<div class="bar">
 				<div class="top">
-					<h1>test</h1>
 				</div>
 
 				<!-- This is the weather client -->
