@@ -8,10 +8,10 @@ sudo apt-get install lighttpd -y
 sudo apt-get install php -y
 sudo apt-get install php-xml -y
 
-rm -r /var/www/html/*
+sudo rm -r /var/www/html/*
 
-git clone https://github.com/Walter-Ohman/Web-Slide /var/www/html/
+sudo git clone https://github.com/Walter-Ohman/Web-Slide /var/www/html/
 
-mkdir /var/www/html/tempimgs
-mkdir /var/www/html/uploads
-mkdir /var/www/html/imgs
+sudo mkdir /var/www/html/tempimgs
+sudo mkdir /var/www/html/uploads
+sudo mkdir /var/www/html/imgs
