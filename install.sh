@@ -19,3 +19,5 @@ sudo mkdir /var/www/html/uploads
 sudo mkdir /var/www/html/imgs
 
 sudo chmod -R 777 /var/www/html/
+
+sudo pip install pdf2image
